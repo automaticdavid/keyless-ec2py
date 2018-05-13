@@ -5,6 +5,8 @@
 # Use sudo -E if running with sudo
 # Consider using a secrets instead
 # Modify $NETWORK to match your containers' network
+# docker network create -d bridge dclnet
+# sudo docker inspect keyless-ec2 | grep "IPAddress"
 
 export SERVICE="keyless-ec2"
 export SERVICE_NAME="keyless-ec2"
