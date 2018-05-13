@@ -1,7 +1,7 @@
 requests
 simplejson
-boto
 flask-restplus
 Flask
 gunicorn
+boto
 ansible
